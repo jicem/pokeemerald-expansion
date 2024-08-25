@@ -232,6 +232,7 @@ Route101_EventScript_BirchsBag::
 	waitstate
 	applymovement LOCALID_BIRCH, Route101_Movement_BirchApproachPlayer
 	waitmovement 0
+	special GetRivalSonDaughterString
 	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT
 	special HealPlayerParty
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
@@ -279,8 +280,9 @@ Route101_Text_YouSavedMe:
 	.string "POKéMON when I was jumped.\p"
 	.string "You saved me.\n"
 	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
+	.string "Oh? You're a MAGMA GRUNT, just\n"
+	.string "like my {STR_VAR_1}!\p"
+	.string "Hi, {PLAYER}{KUN}!\p"
 	.string "This is not the place to chat, so come\n"
 	.string "by my POKéMON LAB later, okay?$"
 

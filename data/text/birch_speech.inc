@@ -1,8 +1,8 @@
 gText_Birch_Welcome::
 	.string "Hi! Sorry to keep you waiting!\p"
 	.string "Welcome to Team Magma!\p"
-	.string "We of Team Magma exist\n"
-	.string "for the good of all people!\p"
+	.string "We of Team Magma exist for\n"
+	.string "the good of all people!\p"
 	.string "As I'm sure you know, I'm the\n"
 	.string "leader of Team Magma, MAXIE.\p"
 	.string "$"
@@ -14,8 +14,10 @@ gText_Birch_Pokemon::
 
 gText_Birch_MainSpeech::
 	.string "We use these POKéMON to help us\n"
-	.string "in our quest to reverse the changes\p"
-	.string "to HOENN's climate.\p"
+	.string "in our quest to reverse the\p"
+	.string "catastrophic changes to HOENN's\n"
+	.string "climate.\p"
+	.string "\n"
 	.string "$"
 
 gText_Birch_AndYouAre::
@@ -43,9 +45,9 @@ gText_Birch_AreYouReady::
 	.string "All right, are you ready?\p"
 	.string "You'll be stationed in LITTLEROOT\n"
 	.string "TOWN with one of our veterans.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of Team Magma where dreams,\l"
+	.string "Take courage, and leap with us\n"
+	.string "into the MAGMA where dreams,\l"
 	.string "adventure, and friendships await!\p"
 	.string "I hope to see you again later.\n"
-	.string "Good luck, newest Magma Grunt.\p"
+	.string "Good luck, newest MAGMA GRUNT.\p"
 	.string "$"
