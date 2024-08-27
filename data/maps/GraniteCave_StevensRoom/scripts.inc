@@ -82,6 +82,9 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
+	.string "A MAGMA GRUNT?\n"
+	.string "Did my brother send you?\p"
+	.string "No? My apologies.\p"
 	.string "My name is STEVEN.\p"
 	.string "I'm interested in rare stones,\n"
 	.string "so I travel here and there.\p"

@@ -162,7 +162,7 @@ RustboroCity_DevonCorp_3F_EventScript_MrStone::
 
 RustboroCity_DevonCorp_3F_EventScript_GiveExpShare::
 	msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
-	giveitem ITEM_ULTRA_BALL
+	giveitem ITEM_OLD_SEA_MAP
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_EXP_SHARE
 	msgbox RustboroCity_DevonCorp_3F_Text_ExplainExpShare, MSGBOX_DEFAULT
@@ -203,6 +203,12 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "I'd just got word about you!\p"
 	.string "You saved our staff not just once,\n"
 	.string "but twice!\p"
+	.string "That suit…\p"
+	.string "You know my son MAXWELL, don't you?\p"
+	.string "I haven't seen him much since he started\n"
+	.string "TEAM MAGMA with my money…\p"
+	.string "But you've been a stellar representative\n"
+	.string "of it so far!\p"
 	.string "I have a favor to ask of an amazing\n"
 	.string "person like you.\p"
 	.string "I understand that you're delivering\n"
@@ -232,7 +238,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "You can check the locations of\n"
 	.string "DEWFORD and SLATEPORT easily!\p"
 	.string "By the way, I've heard that sinister\n"
-	.string "criminals--MAGMA and AQUA, I believe--\l"
+	.string "criminals-- TEAM AQUA, I believe--\l"
 	.string "have been making trouble far and wide.\p"
 	.string "I think it would be best if you rested\n"
 	.string "up before you go on your way.$"
@@ -251,9 +257,22 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
 	.string "It should help you, a TRAINER.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
-	.string "MR. STONE: That's an ULTRA BALL.\p"
-	.string "I would say ULTRA BALL is quite useful\n"
-	.string "for catching wild POKéMON.$"
+	.string "MR. STONE: My great-grandfather made his\n"
+	.string "fortune exploring the high seas.\p"
+	.string "This OLD SEA MAP is said to lead\n"
+	.string "somewhere unexplored by humans.\p"
+	.string "It could have POKéMON nobody's ever\n"
+	.string "seen before.\p"
+	.string "My great-grandfather was given this map\n"
+	.string "by another famous explorer.\p"
+	.string "He died before he could sail to where\n"
+	.string "this map led, and nobody in the\l"
+	.string "generations that followed him\l"
+	.string "shared his love for exploration.\p"
+	.string "I believe you do, so I want you to\n"
+	.string "have this map.\p"
+	.string "I wish you the best of luck on your\n"
+	.string "journey, {PLAYER}.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "MR. STONE: Since my youth, I've immersed\n"

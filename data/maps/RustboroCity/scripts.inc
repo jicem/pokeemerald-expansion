@@ -1106,8 +1106,8 @@ RustboroCity_Text_WaitDontTakeMyGoods:
 
 RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Oh, it's you!\p"
-	.string "You're that fantastic TRAINER who\n"
-	.string "helped me in PETALBURG WOODS!\p"
+	.string "You're that fantastic MAGMA GRUNT\n"
+	.string "who helped me in PETALBURG WOODS!\p"
 	.string "Help me! I was robbed by TEAM AQUA!\n"
 	.string "I have to get the DEVON GOODS back!\p"
 	.string "If I don't…\n"
@@ -1122,9 +1122,10 @@ RustboroCity_Text_YouGotItThankYou:
 	.string "The DEVON GOODS?\p"
 	.string "You did!\n"
 	.string "You got them back!\p"
-	.string "You really are a great TRAINER!\p"
-	.string "I know! As my thanks, I'll give you\n"
-	.string "another GREAT BALL!$"
+	.string "You really are a great\n"
+	.string "MAGMA GRUNT!\p"
+	.string "I know! As my thanks, I'll give\n"
+	.string "you a GREAT BALL!$"
 
 RustboroCity_Text_YoureLoadedWithItems:
 	.string "You're loaded with items.\n"

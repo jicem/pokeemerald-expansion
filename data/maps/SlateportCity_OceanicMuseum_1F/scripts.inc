@@ -244,12 +244,13 @@ SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
 
 SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
 	.string "We, TEAM AQUA, exist for the good\n"
-	.string "of all!$"
+	.string "of all! TEAM MAGMA are frauds!$"
 
 SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
 	.string "We were told to assemble here,\n"
 	.string "so we did, but…\p"
-	.string "Our BOSS, the linchpin, isn't here.$"
+	.string "Our BOSS, the linchpin, isn't here.\n"
+	.string "Did you MAGMA thugs do something?$"
 
 SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
 	.string "If I ripped off the stuff here,\n"

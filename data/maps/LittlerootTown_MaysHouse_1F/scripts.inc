@@ -324,7 +324,7 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "Oh, you're the new MAGMA GRUNT! Hi!\p"
 	.string "We have a {STR_VAR_1} about the same\n"
 	.string "age as you.\p"
-	.string "Our {STR_VAR_1} is also in Team Magma\n"
+	.string "Our {STR_VAR_1} is also in TEAM MAGMA\n"
 	.string "and was excited to meet you.\p"
 	.string "Our {STR_VAR_1} is upstairs, I think.$"
 

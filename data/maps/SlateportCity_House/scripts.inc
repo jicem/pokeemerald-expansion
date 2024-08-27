@@ -17,7 +17,11 @@ SlateportCity_House_Text_NatureToDoWithStatGains:
 	.string "do with the stat gains of POKéMON.$"
 
 SlateportCity_House_Text_MustBeGoingToBattleTent:
-	.string "You're a TRAINER, aren't you?\p"
-	.string "Since you came to SLATEPORT CITY,\n"
-	.string "you must be going to the BATTLE TENT.$"
+	.string "You're with TEAM MAGMA, aren't you?\p"
+	.string "I hope the things they've been saying\n"
+	.string "about fixing all this is true.\p"
+	.string "These disasters have been happening\n"
+	.string "more and more.\p"
+	.string "I've lived in this city all my life,\n"
+	.string "and it no longer feels safe.$"
 

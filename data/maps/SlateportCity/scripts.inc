@@ -951,8 +951,8 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-	.string "I'm the ENERGY GURU! I'll go for it and\n"
-	.string "sell you what you need!$"
+	.string "I'm the ENERGY GURU! The others are\n"
+	.string "cutting their prices but me? Never!$"
 
 SlateportCity_Text_OhYourPokemon:
 	.string "Oh?\n"
@@ -989,20 +989,23 @@ SlateportCity_Text_SeaweedFullOfLife:
 	.string "Ooh, look at this!\p"
 	.string "The seaweed you can get around these\n"
 	.string "parts is fresh and full of life.\p"
-	.string "Why, it looks like it can even rear up\n"
-	.string "and attack!$"
+	.string "And that hurricane left plenty for\n"
+	.string "me to sell so it's half off!$"
 
 SlateportCity_Text_HowTownIsBornAndGrows:
 	.string "Where the water is clean, the fruits\n"
 	.string "of bountiful harvest gather.\p"
 	.string "And where people gather, a market\n"
 	.string "soon starts.\p"
-	.string "That is how a town is born and grows.$"
+	.string "That is how a town is born and grows.\p"
+	.string "What is it that kills a town, though?\n"
+	.string "I think we're learning that now.$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
-	.string "Shopping where you can breathe the\n"
-	.string "scent of the ocean…\p"
-	.string "SLATEPORT is such a wonderful place!$"
+	.string "It feels weird shopping here so\n"
+	.string "soon after the hurricane.\p"
+	.string "But these are the best deals\n"
+	.string "I've ever seen!$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
 	.string "If you put DOLLS or CUSHIONS on\n"
@@ -1105,8 +1108,8 @@ SlateportCity_Text_HotSpringsAfterOperation:
 
 SlateportCity_Text_SeaIsSoWet:
 	.string "The sea is just so vast…\p"
-	.string "Could the sea have been made by\n"
-	.string "the tears shed by POKéMON?$"
+	.string "Maybe it isn't so bad that we'll\n"
+	.string "eventually be gobbled up by it.$"
 
 SlateportCity_Text_SinkOldBoats:
 	.string "Do you know what they do with old\n"
@@ -1130,12 +1133,12 @@ SlateportCity_Text_CantChangeTradeMonName:
 	.string "POKéMON is in the nickname.$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
-	.string "Recently, a BATTLE TENT was built\n"
-	.string "in SLATEPORT.\p"
-	.string "GYMS are fun, but the BATTLE TENT's\n"
-	.string "awesome in its own way.\p"
-	.string "You should go find tough POKéMON\n"
-	.string "for the BATTLE TENT!$"
+	.string "That hurricane really did a number\n"
+	.string "on SLATEPORT CITY.\p"
+	.string "We just finished cleaning up all\n"
+	.string "the damage.\p"
+	.string "If we didn't have our POKéMON helpers,\n"
+	.string "it would still be a mess down here.$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
 	.string "I was hoping that it was a famous star\n"
@@ -1352,7 +1355,7 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 
 SlateportCity_Text_MaybeThisTrainer:
 	.string "SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…$"
+	.string "Maybe, just maybe, this MAGMA GRUNT…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
 	.string "SCOTT: All right! I think you're going\n"

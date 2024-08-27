@@ -1,10 +1,10 @@
 gText_Birch_Welcome::
 	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to Team Magma!\p"
-	.string "We of Team Magma exist for\n"
+	.string "Welcome to TEAM MAGMA!\p"
+	.string "We of TEAM MAGMA exist for\n"
 	.string "the good of all people!\p"
 	.string "As I'm sure you know, I'm the\n"
-	.string "leader of Team Magma, MAXIE.\p"
+	.string "leader of TEAM MAGMA, MAXIE.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
@@ -37,7 +37,7 @@ gText_Birch_SoItsPlayer::
 gText_Birch_YourePlayer::
 	.string "Ah, okay!\p"
 	.string "You're {PLAYER}{KUN} who will be\n"
-	.string "joining Team Magma.\l"
+	.string "joining TEAM MAGMA.\l"
 	.string "I get it now!\p"
 	.string "$"
 

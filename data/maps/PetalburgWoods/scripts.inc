@@ -360,7 +360,7 @@ PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "POKéMON…\p"
 	.string "And, hey, we of TEAM AQUA are also\n"
 	.string "after something in RUSTBORO.\p"
-	.string "I'll let you go today!$"
+	.string "I'll let you go today, MAGMA scum!$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "Whew…\n"

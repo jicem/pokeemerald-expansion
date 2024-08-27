@@ -1143,14 +1143,14 @@ PetalburgCity_Gym_EventScript_GymStatue::
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "DAD: Hm?\p"
-	.string "Well, if it isn't {PLAYER}!\n"
-	.string "So you're all finished moving in?\p"
+	.string "Oh, {PLAYER}! It's you!\n"
+	.string "You and MOM are finished moving out?\p"
 	.string "I'm surprised that you managed to\n"
 	.string "get here by yourself.\p"
 	.string "Oh, I see.\n"
 	.string "You're with your POKéMON.\p"
 	.string "Hm… Then I guess you're going to\n"
-	.string "become a TRAINER like me, {PLAYER}.\p"
+	.string "become a TRAINER like me after all.\p"
 	.string "That's great news!\n"
 	.string "I'll be looking forward to it!$"
 
@@ -1226,10 +1226,10 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "GYMS and defeat their LEADERS.\p"
 	.string "Collect BADGES from them,\n"
 	.string "understood?\p"
-	.string "Of course, I'm a GYM LEADER, too.\n"
-	.string "We'll battle one day, {PLAYER}.\p"
-	.string "But that's only after you become\n"
-	.string "stronger.$"
+	.string "Also, {PLAYER}… your mother…\n"
+	.string "Has she mentioned me at all?\p"
+	.string "Never mind. You shouldn't be\n"
+	.string "involved in this.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "DAD: Hm? Aren't you going to the\n"
