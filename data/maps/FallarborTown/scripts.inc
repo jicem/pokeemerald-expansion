@@ -52,9 +52,9 @@ FallarborTown_EventScript_MoveTutorSign::
 	end
 
 FallarborTown_Text_ShadyCharactersCozmosHome:
-	.string "Something's happening,\n"
-	.string "and I don't like it!\p"
-	.string "I've seen shady characters wandering\n"
+	.string "Oh no, it's another one of those\n"
+	.string "shady red fellas!\p"
+	.string "I've seen others like you wandering\n"
 	.string "in and out of PROF. COZMO's home…$"
 
 FallarborTown_Text_RegionKnownForMeteors:

@@ -13,35 +13,24 @@ Route112_OnTransition:
 Route112_EventScript_MagmaGrunts::
 	lockall
 	delay 40
-	applymovement LOCALID_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_GRUNT_1, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 20
 	msgbox Route112_Text_LeaderGoingToAwakenThing, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_GRUNT_1, Common_Movement_FaceOriginalDirection
-	waitmovement 0
 	delay 40
-	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 20
 	msgbox Route112_Text_YeahWeNeedMeteorite, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_GRUNT_2, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	delay 40
-	applymovement LOCALID_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	delay 20
 	msgbox Route112_Text_OhThatsWhyCrewWentToFallarbor, MSGBOX_DEFAULT
+	closemessage
+	msgbox Route112_Text_CantLetAnyonePassUntilTheyreBack, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_GRUNT_1, Common_Movement_FaceOriginalDirection
 	waitmovement 0
-	delay 40
-	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
 	delay 20
-	msgbox Route112_Text_CantLetAnyonePassUntilTheyreBack, MSGBOX_DEFAULT
-	closemessage
 	applymovement LOCALID_GRUNT_2, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	releaseall
@@ -110,20 +99,19 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
-	.string "Hey, man, is our leader really going\n"
-	.string "to awaken that thing?$"
+	.string "Hey, you're that new MAGMA GRUNT,\n"
+	.string "{PLAYER}, right?$"
 
 Route112_Text_YeahWeNeedMeteorite:
-	.string "Sounds like it, yeah. But I heard\n"
-	.string "we need a METEORITE to do it.$"
+	.string "Nice to meet ya!$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-	.string "Oh, I get it now. That's why the rest\n"
-	.string "of the crew went out to FALLARBOR.$"
+	.string "What are you doing here, though?\n"
+	.string "You're s'posed to be in FALLARBOR.$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
-	.string "You got it. And until they come back,\n"
-	.string "we're not to let anyone pass, right.$"
+	.string "Didn't get the memo, huh?\n"
+	.string "That's alright, we've all been new!$"
 
 Route112_Text_NotEasyToGetBackToLavaridge:
 	.string "Eh, I'd like to get to MAUVILLE, but if\n"
