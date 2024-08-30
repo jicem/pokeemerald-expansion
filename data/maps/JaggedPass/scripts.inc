@@ -65,26 +65,6 @@ JaggedPass_EventScript_OpenMagmaHideout::
 	end
 
 JaggedPass_EventScript_MagmaHideoutGuard::
-	lockall
-	goto_if_set FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS, JaggedPass_EventScript_GuardDefeated
-	waitse
-	playse SE_PIN
-	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_Delay48
-	waitmovement 0
-	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox JaggedPass_Text_GruntIntro, MSGBOX_DEFAULT
-	closemessage
-	trainerbattle_no_intro TRAINER_GRUNT_JAGGED_PASS, JaggedPass_Text_GruntDefeat
-	setflag FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS
-	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	releaseall
-	end
-
-JaggedPass_EventScript_GuardDefeated::
 	applymovement LOCALID_HIDEOUT_GUARD, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox JaggedPass_Text_GoWhereverYouWant, MSGBOX_DEFAULT
@@ -234,10 +214,10 @@ JaggedPass_Text_GruntDefeat:
 	.string "right away…$"
 
 JaggedPass_Text_GoWhereverYouWant:
-	.string "Okay, oh-kay!\n"
-	.string "I admit it--you're strong!\p"
-	.string "Don't worry about me.\n"
-	.string "Go wherever you want!$"
+	.string "We've all gone into our HIDEOUT.\p"
+	.string "You'll need a special EMBLEM to\n"
+	.string "get access to it.\p"
+	.string "Get your own!$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
 	.string "Oh! This boulder is shaking in response\n"

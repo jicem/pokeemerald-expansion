@@ -277,14 +277,17 @@ LavaridgeTown_EventScript_HerbShopSign::
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
-	.string "MAY: {PLAYER}{KUN}! Long time no see!\p"
-	.string "Oh? While I visited the hot springs,\n"
-	.string "you got the LAVARIDGE GYM BADGE.\p"
+	.string "MAY: {PLAYER}{KUN}! What happened?\p"
+	.string "While I visited the hot springs,\n"
+	.string "I heard from another GRUNT that\l"
+	.string "you betrayed the team!\p"
+	.string "Wait…\n"
+	.string "Is that the LAVARIDGE GYM BADGE?\p"
 	.string "You must have collected\n"
 	.string "good POKéMON…\l"
 	.string "No, I believe you raised some.\p"
-	.string "I guess it would be okay for you to\n"
-	.string "have this.$"
+	.string "I can't give you an EMBLEM, but I guess\n"
+	.string "it would be okay for you to have this.$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "MAY: With those GO-GOGGLES, you'll\n"
@@ -296,15 +299,17 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "want to lose to me, I bet!\p"
 	.string "{PLAYER}{KUN}, I think I should challenge\n"
 	.string "your dad in PETALBURG GYM.\p"
-	.string "See you again!$"
+	.string "As for TEAM MAGMA…\n"
+	.string "do what you feel is right.$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
-	.string "BRENDAN: {PLAYER}, hey, it's been a while.\n"
-	.string "How's it going?\p"
-	.string "Hmm…\n"
-	.string "That's a decent collection of BADGES.\p"
-	.string "All right, then.\n"
-	.string "You may as well have this.$"
+	.string "BRENDAN: {PLAYER}, what the heck?\p"
+	.string "I heard from another GRUNT that\n"
+	.string "you betrayed the team!\p"
+	.string "Well, at least you've got a\n"
+	.string "decent collection of BADGES.\p"
+	.string "You aren't getting an EMBLEM from me,\n"
+	.string "but you may as well have this.$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "BRENDAN: Keep those with you if you're\n"
@@ -318,7 +323,8 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "the GYM LEADER of PETALBURG.\p"
 	.string "Unlike you, {PLAYER}, your dad looks like\n"
 	.string "he really is tough.\p"
-	.string "See you around!$"
+	.string "As for TEAM MAGMA…\n"
+	.string "do what you feel is right.$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
 	.string "I have here an EGG.\p"
