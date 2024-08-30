@@ -1161,7 +1161,8 @@ RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
 	.string "MAY: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
 	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "That's not very good for a TRAINER\n"
+	.string "and that's terrible for a MAGMA GRUNT!$"
 
 RustboroCity_Text_MayWantToBattle:
 	.string "MAY: So, what do you think?\n"
@@ -1207,7 +1208,9 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
 	.string "BRENDAN: What's the matter? Don't have\n"
-	.string "any confidence in your POKéMON?$"
+	.string "any confidence in your POKéMON?\p"
+	.string "If you're gonna be part of TEAM MAGMA,\n"
+	.string "you'll need to fix that pronto!$"	
 
 RustboroCity_Text_BrendanWantToBattle:
 	.string "BRENDAN: What's up?\n"

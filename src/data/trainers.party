@@ -11029,10 +11029,10 @@ Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
-Name: MAXIE
-Class: Magma Leader
-Pic: Magma Leader Maxie
-Gender: Male
+Name: COURTNEY
+Class: Magma Admin
+Pic: Magma Admin F
+Gender: Female
 Music: Magma
 Items: Super Potion / Super Potion
 Double Battle: No
@@ -11046,7 +11046,7 @@ Zubat
 Level: 24
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Camerupt
+Numel
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 

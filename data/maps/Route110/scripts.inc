@@ -761,14 +761,16 @@ Route110_Text_AquaActionsBringSmiles:
 
 Route110_Text_MayLetsBattle:
 	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "POKéMON, my POKéMON grew stronger.\p"
+	.string "I heard about you beating up on TEAM AQUA\n"
+	.string "at the museum in SLATEPORT!\p"
+	.string "I'm glad you're already making a name\n"
+	.string "for yourself!\p"
 	.string "So…\n"
 	.string "How about a little battle?$"
 
 Route110_Text_MayDefeated:
 	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "You're even better than I expected!$"
 
 Route110_Text_MayTakeThis:
 	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
@@ -789,8 +791,12 @@ Route110_Text_BrendanLetsBattle:
 	.string "BRENDAN: Hey, {PLAYER}.\n"
 	.string "So this is where you were.\l"
 	.string "How's it going?\p"
-	.string "Have you been raising your POKéMON?\n"
-	.string "I'll check for you.$"
+	.string "I heard about you beating up on TEAM AQUA\n"
+	.string "at the museum in SLATEPORT!\p"
+	.string "I'm glad you're already making a name\n"
+	.string "for yourself!\p"
+	.string "Your POKéMON must be stronger now.\n"
+	.string "I'll check to see how much.$"
 
 Route110_Text_BrendanDefeated:
 	.string "Hmm…\n"
