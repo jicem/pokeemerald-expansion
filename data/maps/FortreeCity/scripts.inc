@@ -117,8 +117,8 @@ FortreeCity_Text_EveryoneHealthyAndLively:
 	.string "trees.\p"
 	.string "Perhaps because of that lifestyle,\n"
 	.string "everyone is healthy and lively.\p"
-	.string "Why, even myself--I feel as if I've\n"
-	.string "grown thirty years younger.$"
+	.string "And we don't have to worry about\n"
+	.string "flooding like other parts of HOENN.$"
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
 	.string "Living on top of trees is okay.\p"

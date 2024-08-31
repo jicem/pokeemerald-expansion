@@ -481,7 +481,8 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 
 Route119_Text_MayIntro:
 	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Where were you? I was looking for you!\p"
+	.string "Where were you? I'm on my way to\n"
+	.string "MT. PYRE with the others!\p"
 	.string "How much stronger have you gotten?\n"
 	.string "Let me check for you!\p"
 	.string "Ready with your POKéMON?\n"
@@ -514,6 +515,8 @@ Route119_Text_MayExplainFly:
 Route119_Text_BrendanIntro:
 	.string "BRENDAN: {PLAYER}! So this is where\n"
 	.string "you've been looking for POKéMON?\p"
+	.string "Me? I'm on my way to\n"
+	.string "MT. PYRE with the others!\p"
 	.string "Let me see how good you got.\n"
 	.string "I'll test you!\p"
 	.string "Now!\n"

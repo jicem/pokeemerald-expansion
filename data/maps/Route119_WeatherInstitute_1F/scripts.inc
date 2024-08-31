@@ -87,7 +87,7 @@ Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
 
 Route119_WeatherInstitute_1F_Text_Grunt4Intro:
 	.string "Huh?\n"
-	.string "What's a kid doing here?$"
+	.string "What's a MAGMA kid doing here?$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
 	.string "Huh?\n"

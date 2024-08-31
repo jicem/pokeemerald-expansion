@@ -265,10 +265,10 @@ Route119_WeatherInstitute_2F_Text_ShellyDefeat:
 	.string "You're disgustingly strong!$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
-	.string "It's bad enough to have TEAM MAGMA\n"
-	.string "blunder about, but now there's you!\p"
-	.string "What makes you want to sniff around\n"
-	.string "in our business, anyway?$"
+	.string "I'm so sick of TEAM MAGMA interfering\n"
+	.string "with our plans!\p"
+	.string "Why would they send some kid to do\n"
+	.string "this, anyway?$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "We have a situation here!\p"
@@ -279,10 +279,10 @@ Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "What?!\p"
-	.string "We can't waste any more time here!\n"
+	.string "So you were just a diversion!\n"
 	.string "We have to hurry to MT. PYRE, too!\p"
-	.string "Ahahahaha!\n"
-	.string "TEAM MAGMA, just you wait!$"
+	.string "Ahahahaha! Just you wait!\n"
+	.string "You friends are going down!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
 	.string "Thanks!\n"

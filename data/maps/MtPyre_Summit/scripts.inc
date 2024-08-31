@@ -430,13 +430,13 @@ MtPyre_Summit_EventScript_Grunt4::
 	end
 
 MtPyre_Summit_Text_Grunt1Intro:
-	.string "No! Those TEAM MAGMA goons got\n"
+	.string "No! You TEAM MAGMA goons got\n"
 	.string "here ahead of us!\p"
 	.string "We can't fall behind!$"
 
 MtPyre_Summit_Text_Grunt1Defeat:
-	.string "I thought you were one of the MAGMAS\n"
-	.string "who happened to come back…$"
+	.string "How many more of you MAGMAS just\n"
+	.string "happened to come back…$"
 
 MtPyre_Summit_Text_Grunt1PostBattle:
 	.string "Yeah, so you are strong…\n"
@@ -444,15 +444,15 @@ MtPyre_Summit_Text_Grunt1PostBattle:
 
 MtPyre_Summit_Text_Grunt2Intro:
 	.string "Hah!\n"
-	.string "Too bad for you!\p"
-	.string "If you came earlier, you only would've\n"
-	.string "had to battle the wimpy TEAM MAGMA.\p"
+	.string "Looks like you got here late!\p"
+	.string "The other TEAM MAGMA guys\n"
+	.string "already bolted!\p"
 	.string "But since you arrived now, you have\n"
 	.string "to take on us toughies!$"
 
 MtPyre_Summit_Text_Grunt2Defeat:
-	.string "Urgh… I should've let you take on\n"
-	.string "TEAM MAGMA first…$"
+	.string "Urgh… I'm wishing you got here\n"
+	.string "on time now…$"
 
 MtPyre_Summit_Text_Grunt2PostBattle:
 	.string "You don't know anything!\n"
@@ -460,13 +460,13 @@ MtPyre_Summit_Text_Grunt2PostBattle:
 
 MtPyre_Summit_Text_Grunt3Intro:
 	.string "You…\n"
-	.string "We saw you at MT. CHIMNEY.\p"
-	.string "You don't belong to either TEAM,\n"
-	.string "so why would you be here?$"
+	.string "Where's the ORB they stole?\p"
+	.string "You really expect us to believe\n"
+	.string "you don't know?$"
 
 MtPyre_Summit_Text_Grunt3Defeat:
-	.string "If you're going to mess with anyone,\n"
-	.string "let it be TEAM MAGMA…$"
+	.string "Okay…\n"
+	.string "We'll consider believing you now.$"
 
 MtPyre_Summit_Text_Grunt3PostBattle:
 	.string "Heh, it doesn't matter!\n"
@@ -476,22 +476,19 @@ MtPyre_Summit_Text_Grunt3PostBattle:
 
 MtPyre_Summit_Text_Grunt4Intro:
 	.string "Oh, I know!\n"
-	.string "You tried to join TEAM MAGMA,\l"
-	.string "but they wouldn't have you!\p"
-	.string "Well, don't think that we'll let you\n"
-	.string "join our TEAM AQUA!$"
+	.string "We'll beat the truth out of ya!$"
 
 MtPyre_Summit_Text_Grunt4Defeat:
-	.string "If you want to join TEAM AQUA that\n"
-	.string "badly, we can consider it…$"
+	.string "We were just going easy on ya!\n"
+	.string "Yeah!$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "We have a great combination going\n"
 	.string "with us members and our leader.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
-	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
-	.string "of us, but we also got what we wanted.\p"
+	.string "ARCHIE: MAXIE got ahead of us,\n"
+	.string "but we also got what we wanted.\p"
 	.string "The RED ORB preserved at MT. PYRE…\n"
 	.string "I, ARCHIE, now have it in my possession!\p"
 	.string "Fufufu… Now we can bring our ultimate\n"
@@ -506,18 +503,22 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "the RED ORB has been taken…\p"
 	.string "The BLUE ORB and RED ORB must never\n"
 	.string "be separated. They belong together.\p"
-	.string "What are those men trying to do with\n"
-	.string "the two ORBS?\p"
+	.string "You! What are you going to do with\n"
+	.string "the BLUE ORB?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "Oh, yes. Was it TEAM MAGMA who came\n"
-	.string "and took the BLUE ORB first?\p"
+	.string "You don't know?\n"
+	.string "You aren't with TEAM MAGMA anymore?\p"
+	.string "Way you're dressed, you can forgive\n"
+	.string "me for thinking otherwise.\p"
+	.string "Huh?\n"
+	.string "You were looking for an EMBLEM?\p"
 	.string "Well, in their haste, they left this\n"
-	.string "behind.\p"
-	.string "I couldn't imagine what exactly it\n"
-	.string "could be.\p"
-	.string "I would like you to have it.\n"
-	.string "Perhaps it will be useful in some way.$"
+	.string "one behind.\p"
+	.string "You can have it if you want.\n"
+	.string "It has no use for us.\p"
+	.string "Whatever those men are planning, I\n"
+	.string "hope you'll be able to stop it.$"
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
 	.string "The BLUE ORB and RED ORB taken by\n"

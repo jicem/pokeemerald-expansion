@@ -1299,10 +1299,19 @@ PetalburgCity_Gym_Text_ExplainFacade:
 	.string "situation into an advantage.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-	.string "DAD: As the GYM LEADER, I can't\n"
-	.string "express how upset I am…\p"
-	.string "But as a father, it makes me both\n"
-	.string "happy and a little sad. It's odd…$"
+	.string "DAD: Also, {PLAYER}…\p"
+	.string "I'm sorry I wasn't there for you\n"
+	.string "and MOM.\p"
+	.string "I was so focused on being a great gym\n"
+	.string "leader than I neglected the most\l"
+	.string "important people in my life.\p"
+	.string "I hope you're getting what you\n"
+	.string "wanted from TEAM MAGMA…\p"
+	.string "The kind of family you've never had…\p"
+	.string "I'm sorry I couldn't give you that.\p"
+	.string "And I'm sorry it took you defeating me\n"
+	.string "in my own gym for me to admit this.\p"
+	.string "I hope you can forgive me.$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "Ah, there you are, {PLAYER}{KUN}!\p"
@@ -1317,10 +1326,10 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer:
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 	.string "DAD: {PLAYER}, you should go visit\n"
 	.string "your mother every so often.\p"
-	.string "I'm going to stay here and redouble\n"
-	.string "my training.\p"
-	.string "It would bother me as a TRAINER to\n"
-	.string "not avenge my loss to you, {PLAYER}!$"
+	.string "I know you're destined for great\n"
+	.string "things, but you shouldn't forget\l"
+	.string "the people who love you.\p"
+	.string "Not like I did.$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 	.string "DAD: {PLAYER}, how are things going?\p"
