@@ -1611,7 +1611,9 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "simple action puts everything right\l"
 	.string "again as if nothing had happened…\p"
 	.string "Fu…\n"
-	.string "Fuhahaha…$"
+	.string "Fuhahaha…\p"
+	.string "Thank you, {PLAYER}.\n"
+	.string "You're the best darn GRUNT we have.$"
 
 SootopolisCity_Text_KyogreCalmDown:
 	.string "ARCHIE: KYOGRE! What's wrong?!\n"
@@ -1694,8 +1696,12 @@ SootopolisCity_Text_HaventYouScaledSkyPillar:
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "WALLACE: {PLAYER}{KUN}…\p"
-	.string "The leaders of TEAM MAGMA and AQUA,\n"
-	.string "I don't think they meant harm.\p"
+	.string "I'm sure you feel conflicted\n"
+	.string "about TEAM MAGMA now.\p"
+	.string "For what it's worth, I do think\n"
+	.string "their intentions were truly noble.\p"
+	.string "TEAM AQUA had noble intentions, too.\n"
+	.string "Still, both leaders are right there.\p"
 	.string "It wouldn't hurt to hear what they\n"
 	.string "have to say for themselves.$"
 

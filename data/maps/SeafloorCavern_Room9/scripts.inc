@@ -243,6 +243,12 @@ SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
 	.string "ARCHIE: It surprises me, how you've\n"
 	.string "managed to chase me here.\p"
 	.string "But that's all over now.\p"
+	.string "It's a shame. I thought I finally\n"
+	.string "got you to listen to reason.\p"
+	.string "But you're no different than the\n"
+	.string "the rest of TEAM MAGMA.\p"
+	.string "That's it!\n"
+	.string "No more chances!\p"
 	.string "For the realization of my dream,\n"
 	.string "you must disappear now!$"
 
@@ -300,9 +306,11 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "MAXIE: What have you wrought?\p"
 	.string "ARCHIE… You've finally awoken KYOGRE,\n"
 	.string "haven't you?\p"
-	.string "What will happen to the world if this\n"
-	.string "downpour continues for all eternity?\p"
-	.string "The world's landmass will drown in\n"
+	.string "Do you not understand its true power?\p"
+	.string "It will reset the world, sure, but it\n"
+	.string "will drive every living thing on this\l"
+	.string "planet to death first!\p"
+	.string "Every single one of us will drown in\n"
 	.string "the deepening sea…$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
@@ -318,8 +326,9 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 	.string "MAXIE: We don't have the time to\n"
 	.string "argue about it here!\p"
 	.string "Get outside and see for yourself!\p"
-	.string "See if what you've wrought is the\n"
-	.string "world that we desired!$"
+	.string "See if what you've wrought is a\n"
+	.string "world that is being saved or one\l"
+	.string "that is being destroyed!$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
 	.string "MAXIE: {PLAYER}, come on, you have\n"

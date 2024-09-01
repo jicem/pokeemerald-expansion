@@ -107,7 +107,7 @@ AquaHideout_1F_Text_BossIsInSlateportCity:
 
 AquaHideout_1F_Text_Grunt1Intro:
 	.string "Ayiyiyi!\n"
-	.string "Suspicious character spotted!$"
+	.string "MAGMA intruder spotted!$"
 
 AquaHideout_1F_Text_Grunt1Defeat:
 	.string "Grrrrr…\n"

@@ -205,18 +205,15 @@ MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote::
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt3::
-	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_3, MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat
-	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle, MSGBOX_DEFAULT
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_1, MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat
-	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle, MSGBOX_DEFAULT
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt4::
-	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_4, MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat
-	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle, MSGBOX_DEFAULT
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
@@ -224,7 +221,6 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
 	faceplayer
 	goto_if_set FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F, MossdeepCity_SpaceCenter_1F_EventScript_Grunt2Defeated
 	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_2, MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat
 	setflag FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F
 	copyobjectxytoperm LOCALID_STAIR_GRUNT
 	switch VAR_FACING
@@ -357,16 +353,18 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "I'm not having any of that!$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
-	.string "proclamation already?\p"
+	.string "STEVEN: {PLAYER}{KUN}, do you know\n"
+	.string "about this… this proclamation?\p"
 	.string "TEAM MAGMA is coming after the rocket\n"
 	.string "fuel on this island.\p"
-	.string "I don't know what they'd need it for,\n"
-	.string "but they can't be allowed to take it.\p"
-	.string "I'll keep an eye on things for\n"
-	.string "a while longer.\p"
-	.string "In the meantime, why don't you go\n"
-	.string "check out the town?$"
+	.string "You don't know? Hmm.\p"
+	.string "Well, I've tolerated my brother's\n"
+	.string "pursuits before this, but this is\l"
+	.string "going way too far!\p"
+	.string "I'm going to give MAXIE a piece of\n"
+	.string "my mind!\p"
+	.string "In the meantime, you should go check\n"
+	.string "out the town, but be careful.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "As promised, we've come for\n"
@@ -376,8 +374,8 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat:
 	.string "Ran out of fuel…$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle:
-	.string "Don't think you're on a roll just\n"
-	.string "because you've beaten me!$"
+	.string "As promised, we've come for\n"
+	.string "the rocket fuel!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro:
 	.string "We gave you fair warning!\n"
@@ -388,8 +386,8 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat:
 	.string "We should've used sneaky treachery…$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
-	.string "Okay, I get it already! The next time,\n"
-	.string "we'll come unannounced.$"
+	.string "Man, there's nothing sneaky about\n"
+	.string "about the way we're doing this.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
 	.string "The rocket fuel the SPACE CENTER has\n"
@@ -401,14 +399,18 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat:
 	.string "Even a chintzy cup will do!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle:
-	.string "What are we going to do with\n"
-	.string "the rocket fuel?\p"
-	.string "How would I know?\n"
+	.string "The rocket fuel the SPACE CENTER has\n"
+	.string "in storage--that's what we're after.\p"
+	.string "We mean to take every last bit of it!\p"
+	.string "What are we going to do with it?\n"
+	.string "How would I know?\p"
 	.string "Ask our leader upstairs!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro:
 	.string "Our leader said no one, but no one,\n"
-	.string "gets past me!$"
+	.string "gets past me!\p"
+	.string "Oh, you want to get past me?\n"
+	.string "Sure!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
 	.string "Ack! Ack! Aaack!$"

@@ -114,18 +114,15 @@ MagmaHideout_4F_Movement_MaxieLookAround:
 	step_end
 
 MagmaHideout_4F_EventScript_Grunt11::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_11, MagmaHideout_4F_Text_Grunt11Intro, MagmaHideout_4F_Text_Grunt11Defeat
-	msgbox MagmaHideout_4F_Text_Grunt11PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MagmaHideout_4F_Text_Grunt11PostBattle, MSGBOX_DEFAULT
 	end
 
 MagmaHideout_4F_EventScript_Grunt12::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_12, MagmaHideout_4F_Text_Grunt12Intro, MagmaHideout_4F_Text_Grunt12Defeat
-	msgbox MagmaHideout_4F_Text_Grunt12PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MagmaHideout_4F_Text_Grunt12PostBattle, MSGBOX_DEFAULT
 	end
 
 MagmaHideout_4F_EventScript_Grunt13::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_13, MagmaHideout_4F_Text_Grunt13Intro, MagmaHideout_4F_Text_Grunt13Defeat
-	msgbox MagmaHideout_4F_Text_Grunt13PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MagmaHideout_4F_Text_Grunt13PostBattle, MSGBOX_DEFAULT
 	end
 
 MagmaHideout_4F_EventScript_Tabitha::
@@ -145,7 +142,9 @@ MagmaHideout_4F_Text_Grunt11Defeat:
 	.string "doesn't have a calm mind…$"
 
 MagmaHideout_4F_Text_Grunt11PostBattle:
-	.string "I wonder if GROUDON even has a tail?$"
+	.string "I want to see GROUDON, too, but they\n"
+	.string "won't let me see even its tail…\p"
+	.string "It's got me feeling really frustrated.$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
 	.string "Fuhahaha!\n"
@@ -157,8 +156,9 @@ MagmaHideout_4F_Text_Grunt12Defeat:
 	.string "I've come so far, but now this?$"
 
 MagmaHideout_4F_Text_Grunt12PostBattle:
-	.string "MAXIE, sir!\n"
-	.string "An intruder is headed your way!$"
+	.string "Fuhahaha!\n"
+	.string "Soon! Very soon!\l"
+	.string "Our grand objective will be achieved!$"
 
 MagmaHideout_4F_Text_Grunt13Intro:
 	.string "You're not finished yet!\n"
@@ -168,20 +168,19 @@ MagmaHideout_4F_Text_Grunt13Defeat:
 	.string "Was I that easy to knock down?$"
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
-	.string "C-come on, one more match…$"
+	.string "MAXIE went to GROUDON just seconds ago!$"
 
 MagmaHideout_4F_Text_TabithaIntro:
-	.string "Hehehe!\n"
-	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right!\n"
-	.string "Up ahead, GROUDON is sleeping!\p"
-	.string "MAXIE went to GROUDON just seconds\n"
-	.string "ago!\p"
-	.string "It's going to awaken real soon!\n"
-	.string "Hehe! Hehehe!$"
+	.string "I know you!\n"
+	.string "You're the new GRUNT, aren't ya?\p"
+	.string "COURTNEY's been blabbing about\n"
+	.string "you nonstop!\p"
+	.string "Think you're so tough, huh?\p"
+	.string "Let's find out how tough you\n"
+	.string "really are!$"
 
 MagmaHideout_4F_Text_TabithaDefeat:
-	.string "Taken down again…\n"
+	.string "So you've taken down two ADMINS…\n"
 	.string "Hehe…$"
 
 MagmaHideout_4F_Text_TabithaPostBattle:
@@ -207,11 +206,16 @@ MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
 	.string "Where have you gone…$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "MAXIE: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
+	.string "MAXIE: {PLAYER}! Was it you?\p"
+	.string "I heard about how you betrayed us…\p"
+	.string "It would be an understatement to\n"
+	.string "say that I'm disappointed.\p"
+	.string "You could have been a great asset\n"
+	.string "for us, but instead, you believed\l"
+	.string "ARCHIE's lies.\p"
+	.string "So… tell me.\n"
+	.string "Was this all just a cheap stunt?\p"
+	.string "If you thought my ADMINS were bad…$"
 
 MagmaHideout_4F_Text_MaxieDefeat:
 	.string "What makes you so adept at handling\n"

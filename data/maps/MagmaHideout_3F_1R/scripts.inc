@@ -2,13 +2,11 @@ MagmaHideout_3F_1R_MapScripts::
 	.byte 0
 
 MagmaHideout_3F_1R_EventScript_Grunt9::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_9, MagmaHideout_3F_1R_Text_Grunt9Intro, MagmaHideout_3F_1R_Text_Grunt9Defeat
-	msgbox MagmaHideout_3F_1R_Text_Grunt9PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MagmaHideout_3F_1R_Text_Grunt9PostBattle, MSGBOX_DEFAULT
 	end
 
 MagmaHideout_3F_1R_EventScript_Grunt16::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_16, MagmaHideout_3F_1R_Text_Grunt16Intro, MagmaHideout_3F_1R_Text_Grunt16Defeat
-	msgbox MagmaHideout_3F_1R_Text_Grunt16PostBattle, MSGBOX_AUTOCLOSE
+	msgbox MagmaHideout_3F_1R_Text_Grunt16PostBattle, MSGBOX_DEFAULT
 	end
 
 MagmaHideout_3F_1R_Text_Grunt9Intro:
@@ -36,8 +34,8 @@ MagmaHideout_3F_1R_Text_Grunt16Defeat:
 	.string "You're not to be trusted at all!$"
 
 MagmaHideout_3F_1R_Text_Grunt16PostBattle:
-	.string "Listen to me.\n"
-	.string "TEAM MAGMA is right!\p"
-	.string "Don't listen to TEAM AQUA.\n"
-	.string "Don't believe their lies!$"
+	.string "We joined so we can help our leader\n"
+	.string "achieve his fantastic vision.\p"
+	.string "We're here to save HOENN.\n"
+	.string "Always remember that.$"
 

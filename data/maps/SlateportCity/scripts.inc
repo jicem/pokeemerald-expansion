@@ -1181,7 +1181,9 @@ SlateportCity_Text_MostInvaluableExperience:
 
 SlateportCity_Text_SternMoveAheadWithExploration:
 	.string "CAPT. STERN: Yes, indeed. We intend to\n"
-	.string "move ahead with our exploration.$"
+	.string "move ahead with our exploration.\p"
+	.string "Rain or shine, hurricane or no\n"
+	.string "hurricane, preferably the latter.$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
 	.string "GABBY: That's wonderful, CAPT. STERN!\n"
