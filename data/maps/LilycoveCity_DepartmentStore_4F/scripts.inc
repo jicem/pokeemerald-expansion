@@ -25,6 +25,8 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft::
 
 	.align 2
 LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
+	.2byte ITEM_TM_AERIAL_ACE
+	.2byte ITEM_TM_WATER_PULSE
 	.2byte ITEM_TM_FIRE_BLAST
 	.2byte ITEM_TM_THUNDER
 	.2byte ITEM_TM_BLIZZARD
@@ -45,6 +47,8 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
+	.2byte ITEM_TM_FACADE
+	.2byte ITEM_TM_CALM_MIND
 	.2byte ITEM_TM_PROTECT
 	.2byte ITEM_TM_SAFEGUARD
 	.2byte ITEM_TM_REFLECT

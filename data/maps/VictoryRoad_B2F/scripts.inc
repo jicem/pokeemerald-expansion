@@ -33,12 +33,19 @@ VictoryRoad_B2F_EventScript_Dianne::
 
 VictoryRoad_B2F_Text_VitoIntro:
 	.string "I trained together with my whole family,\n"
-	.string "every one of us!\l"
-	.string "I'm not losing to anyone!$"
+	.string "every one of us!\p"
+	.string "I'm not losing to anyone!\n"
+	.string "…\p"
+	.string "My name?\n"
+	.string "Winstrate.\p"
+	.string "Why?\n"
+	.string "…\p"
+	.string "You monster!\n"
+	.string "My family shall be avenged!$"
 
 VictoryRoad_B2F_Text_VitoDefeat:
-	.string "Better than my family?!\n"
-	.string "Is that possible?!$"
+	.string "I don't like my family that much\n"
+	.string "anyway…$"
 
 VictoryRoad_B2F_Text_VitoPostBattle:
 	.string "I was better than everyone in my\n"
@@ -48,7 +55,7 @@ VictoryRoad_B2F_Text_VitoPostBattle:
 
 VictoryRoad_B2F_Text_OwenIntro:
 	.string "I'd heard that there was a tough\n"
-	.string "little kid around. Do they mean you?$"
+	.string "little MAGMA kid around. They mean you?$"
 
 VictoryRoad_B2F_Text_OwenDefeat:
 	.string "The little shrimp is tough!$"

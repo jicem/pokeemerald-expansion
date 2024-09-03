@@ -392,13 +392,12 @@ PlayersHouse_1F_Text_RunningShoesManual:
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "DAD: Hm?\p"
 	.string "Hey, it's {PLAYER}!\p"
-	.string "It's been a while since I saw you,\n"
-	.string "but you look…stronger, somehow.\p"
-	.string "That's the impression I get.\n"
+	.string "I just wanted to congratulate\n"
+	.string "you in person!\p"
+	.string "CHAMPION! Wow!\n"
 	.string "But your old man hasn't given up yet!\p"
 	.string "Oh, yes, I have something for you.\n"
-	.string "This came to you from someone named\l"
-	.string "MR. BRINEY.$"
+	.string "This came to you from MR. BRINEY.$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
 	.string "DAD: Hm, a TICKET for a ferry?\p"
@@ -407,14 +406,18 @@ PlayersHouse_1F_Text_PortsInSlateportLilycove:
 
 PlayersHouse_1F_Text_BetterGetBackToGym:
 	.string "I'd better get back to PETALBURG GYM.\p"
-	.string "MOM, thanks for looking after the house\n"
-	.string "while I'm away.$"
+	.string "MOM, uh, thanks.$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
-	.string "MOM: That DAD of yours…\p"
-	.string "He comes home for the first time in a\n"
-	.string "while, but all he talks about is POKéMON.\p"
-	.string "He should relax and stay a little longer.$"
+	.string "MOM: NORMAN…\n"
+	.string "Uh, DAD and I spoke for a while…\p"
+	.string "He does truly seem sorry\n"
+	.string "for not being around.\p"
+	.string "We can't save our marriage, but you\n"
+	.string "should still visit him.\p"
+	.string "Maybe even give him a rematch at the\n"
+	.string "PETALBURG GYM.\p"
+	.string "It's up to you, though.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
 	.string "MOM: Is that a breaking news story?$"

@@ -1,6 +1,6 @@
 .set LOCALID_WALLACE, 1
 .set LOCALID_RIVAL, 2
-.set LOCALID_BIRCH, 3
+.set LOCALID_MAXIE, 3
 
 EverGrandeCity_ChampionsRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_ChampionsRoom_OnTransition
@@ -102,8 +102,8 @@ EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice::
 
 EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF::
 	closemessage
-	addobject LOCALID_BIRCH
-	applymovement LOCALID_BIRCH, EverGrandeCity_ChampionsRoom_Movement_BirchArrives
+	addobject LOCALID_MAXIE
+	applymovement LOCALID_MAXIE, EverGrandeCity_ChampionsRoom_Movement_BirchArrives
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
@@ -120,7 +120,7 @@ EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF::
 	delay 30
 	applymovement LOCALID_WALLACE, EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart
 	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerExitStart
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_MAXIE, Common_Movement_WalkInPlaceFasterUp
 	applymovement LOCALID_RIVAL, EverGrandeCity_ChampionsRoom_Movement_RivalFollows
 	waitmovement 0
 	delay 20
@@ -293,23 +293,25 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
 	.string "You've beaten the CHAMPION?$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
-	.string "PROF. BIRCH: See?\n"
+	.string "MAXIE: See?\n"
 	.string "What did I tell you, {RIVAL}?\p"
 	.string "Didn't I tell you that you don't need\n"
 	.string "to worry about {PLAYER}{KUN}?\p"
 	.string "… … … … … … … …\n"
 	.string "{PLAYER}{KUN}, you've finally done it.\p"
-	.string "When I heard that you defeated your\n"
-	.string "own father at the PETALBURG GYM,\l"
+	.string "When you managed to beat me and my\n"
+	.string "ADMINS, and stop two legendaries,\l"
 	.string "I thought perhaps you had a chance…\p"
 	.string "But to think you've actually become\n"
 	.string "the CHAMPION!\p"
-	.string "Ah, yes!\p"
-	.string "What became of your POKéDEX?\n"
+	.string "You are without a doubt the pride\n"
+	.string "of TEAM MAGMA!\p"
+	.string "Oh, right! PROF. BIRCH wanted me to\n"
+	.string "see what became of your POKéDEX.\p"
 	.string "Here, let me see.$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
-	.string "PROF. BIRCH: Anyways,\n"
+	.string "MAXIE: Anyways,\n"
 	.string "congratulations!\p"
 	.string "Now, go proudly into the final room!$"
 
@@ -324,7 +326,7 @@ EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
 	.string "From here on, only those TRAINERS who\n"
 	.string "have become CHAMPIONS may enter.\p"
 	.string "You'll have to wait outside with\n"
-	.string "PROF. BIRCH.$"
+	.string "MAXIE.$"
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
 	.string "MAY: Groan…\p"

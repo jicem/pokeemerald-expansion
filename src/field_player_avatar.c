@@ -685,17 +685,11 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
         gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
         return;
     }
-
-
-         PlayerRun(direction);
-         gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
-         return;
-     }
-     else
-     {
-         gRunToggleBtnSet = FALSE;
-         PlayerWalkNormal(direction);
-     }
+    else
+    {
+        gRunToggleBtnSet = FALSE;
+        PlayerWalkNormal(direction);
+    }
 }
 
 static u8 CheckForPlayerAvatarCollision(u8 direction)
