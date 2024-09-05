@@ -2,7 +2,13 @@ VictoryRoad_B2F_MapScripts::
 	.byte 0
 
 VictoryRoad_B2F_EventScript_Vito::
+	goto_if_set FLAG_RECEIVED_MACHO_BRACE, VictoryRoad_B2F_EventScript_Vito_Family_Defeated
 	trainerbattle_single TRAINER_VITO, VictoryRoad_B2F_Text_VitoIntro, VictoryRoad_B2F_Text_VitoDefeat
+	msgbox VictoryRoad_B2F_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
+	end
+	
+VictoryRoad_B2F_EventScript_Vito_Family_Defeated::
+	trainerbattle_single TRAINER_VITO, VictoryRoad_B2F_Text_VitoMadIntro, VictoryRoad_B2F_Text_VitoDefeat
 	msgbox VictoryRoad_B2F_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -32,6 +38,11 @@ VictoryRoad_B2F_EventScript_Dianne::
 	end
 
 VictoryRoad_B2F_Text_VitoIntro:
+	.string "I trained together with my whole family,\n"
+	.string "every one of us!\p"
+	.string "I'm not losing to anyone!$"
+	
+VictoryRoad_B2F_Text_VitoMadIntro:
 	.string "I trained together with my whole family,\n"
 	.string "every one of us!\p"
 	.string "I'm not losing to anyone!\n"

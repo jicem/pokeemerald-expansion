@@ -5529,7 +5529,7 @@ static void Task_HandleStopLearningMoveYesNoInput(u8 taskId)
     {
     case 0:
         GetMonNickname(mon, gStringVar1);
-        StringCopy(gStringVar2, GetMoveName[gPartyMenu.data1]);
+        StringCopy(gStringVar2, GetMoveName(gPartyMenu.data1));
         DisplayLearnMoveMessage(gText_PkmnNeedsToReplaceMove);
         gTasks[taskId].func = Task_ReplaceMoveYesNo;
         break;
