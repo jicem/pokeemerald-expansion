@@ -214,8 +214,8 @@ MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 	.string "to feel the wind with their bodies!\p"
 	.string "And an ACRO BIKE is for those who\n"
 	.string "prefer technical rides!\p"
-	.string "I'm real sweet on you MAGMA folks, so\n"
-	.string "you can have whichever one you like!\p"
+	.string "Whichever BIKE you select can be\n"
+	.string "switched at any time by pressing R.\p"
 	.string "Which one will you choose?$"
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:

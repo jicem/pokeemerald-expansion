@@ -627,8 +627,8 @@ MauvilleCity_Text_AllSortsOfPeopleComeThrough:
 
 MauvilleCity_Text_RydelVeryGenerous:
 	.string "Have you been to RYDEL'S CYCLES yet?\p"
-	.string "RYDEL, the owner, is a very generous\n"
-	.string "man.$"
+	.string "MAGMA GRUNTS stop there all the time\n"
+	.string "and always come out with free stuff!$"
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike:
 	.string "Even if you're riding a BIKE,\n"

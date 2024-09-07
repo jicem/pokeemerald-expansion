@@ -20,5 +20,7 @@ PetalburgCity_House2_Text_BattledNormanOnce:
 	.string "he was way too strong.\p"
 	.string "How would I put it?\p"
 	.string "I just got the feeling that he\n"
-	.string "lives for POKéMON.$"
-
+	.string "lives for POKéMON.\p"
+	.string "Hope he doesn't have kids, cause\n"
+	.string "he probably neglects the heck\l"
+	.string "out of 'em.$"

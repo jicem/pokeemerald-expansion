@@ -1016,10 +1016,10 @@ Route104_Text_ThrowBallAtWeakenedPokemon:
 	.string "poisoned, burned, or lulled to sleep.$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
-	.string "You're a thief if you try to steal\n"
+	.string "You shouldn't throw POKé BALLS at\n"
 	.string "someone else's POKéMON.\p"
-	.string "You should throw POKé BALLS only at\n"
-	.string "wild POKéMON.$"
+	.string "That would be stealing.\p"
+	.string "Which is bad.$"
 
 Route104_Text_ImNotATrainer:
 	.string "Oh, no, I'm not a TRAINER.\p"
@@ -1039,8 +1039,8 @@ Route104_Text_TMsAreOneTimeUse:
 	.string "A word of advice!\p"
 	.string "A TM, TECHNICAL MACHINE, is good only\n"
 	.string "for one-time use.\p"
-	.string "Once you use it, it's gone.\n"
-	.string "Think twice before using it!$"
+	.string "At least it would be if\n"
+	.string "some hacker didn't change it!$"
 
 Route104_Text_DontNeedThisTakeIt:
 	.string "This FLOWER SHOP started selling\n"
@@ -1105,7 +1105,8 @@ Route104_Text_MayHaventRaisedPokemon:
 	.string "MAY: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
 	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "That's not very good for a TRAINER\n"
+	.string "and even worse for a MAGMA GRUNT!$"
 
 Route104_Text_MayLetsBattle:
 	.string "MAY: So, what do you think?\n"
@@ -1149,7 +1150,9 @@ Route104_Text_BrendanDoingGreatLetsBattle:
 
 Route104_Text_BrendanNoConfidence:
 	.string "BRENDAN: What's the matter? Don't have\n"
-	.string "any confidence in your POKéMON?$"
+	.string "any confidence in your POKéMON?\p"
+	.string "You're MAGMA! You're better\n"
+	.string "than that!$"
 
 Route104_Text_BrendanLetsBattle:
 	.string "BRENDAN: What's up?\n"

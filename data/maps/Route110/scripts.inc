@@ -761,8 +761,8 @@ Route110_Text_AquaActionsBringSmiles:
 
 Route110_Text_MayLetsBattle:
 	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "I heard about you beating up on TEAM AQUA\n"
-	.string "at the museum in SLATEPORT!\p"
+	.string "I heard about you beating up on TEAM\n"
+	.string "AQUA at the museum in SLATEPORT!\p"
 	.string "I'm glad you're already making a name\n"
 	.string "for yourself!\p"
 	.string "So…\n"
@@ -779,7 +779,7 @@ Route110_Text_MayTakeThis:
 	.string "This is from me!$"
 
 Route110_Text_MayExplainItemfinder:
-	.string "MAY: That's an ITEMFINDER.\p"
+	.string "MAY: That's a DOWSING MACHINE.\p"
 	.string "Try it out. If there is an item that's\n"
 	.string "not visible, it emits a sound.\p"
 	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
@@ -809,7 +809,7 @@ Route110_Text_BrendanTakeThis:
 	.string "Here, take this.$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "BRENDAN: That's an ITEMFINDER.\p"
+	.string "BRENDAN: That's a DOWSING MACHINE.\p"
 	.string "Use it to root around for items that\n"
 	.string "aren't visible.\p"
 	.string "If it senses something, it emits\n"
