@@ -371,9 +371,11 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "my thanks!$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
-	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
+	.string "That EXP. SHARE can be enabled at\n"
+	.string "any time from your KEY ITEMS.\p"
+	.string "Wait… Didn't that TEAM AQUA thug\n"
+	.string "say they were after something\l"
+	.string "in RUSTBORO, too?$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
 	.string "Uh-oh! It's a crisis!\n"

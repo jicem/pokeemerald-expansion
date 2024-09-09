@@ -1082,13 +1082,14 @@ RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
 	.string "to catch rare POKéMON easily?$"
 
 RustboroCity_Text_PokemonCanChangeLookFromExp:
-	.string "If a POKéMON gains experience in\n"
-	.string "battles, it can sometimes change in\l"
-	.string "the way it looks.$"
+	.string "That costume is really cool.\p"
+	.string "Does it come with the TEAM MAGMA\n"
+	.string "membership?$"
 
 RustboroCity_Text_PokemonChangeShape:
-	.string "A POKéMON changes shape?\n"
-	.string "If one did that, I would be shocked!$"
+	.string "What are those things on your head?\n"
+	.string "Are they supposed to be ears?\p"
+	.string "I wish my ears were that pointy!$"
 
 RustboroCity_Text_TradePokemonGrowFast:
 	.string "A POKéMON you get in a trade from\n"

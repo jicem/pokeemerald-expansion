@@ -1521,11 +1521,17 @@ SootopolisCity_Text_NoOrdinaryTourist:
 	.string "Hm!\n"
 	.string "You've come all the way to SOOTOPOLIS?\l"
 	.string "You're no ordinary tourist.\p"
-	.string "But I suppose that doesn't make you\n"
-	.string "an extraordinary tourist, either.$"
+	.string "You're a MAGMA GRUNT, like I\n"
+	.string "used to be.$"
 
 SootopolisCity_Text_CityRegainedCalm:
-	.string "The city has regained its calm…$"
+	.string "The city has regained its calm…\n"
+	.string "My girlfriend and I will probably\l"
+	.string "go to UNOVA after this.\p"
+	.string "Hm?\n"
+	.string "Why did I leave TEAM MAGMA?\p"
+	.string "Well…\n"
+	.string "My girlfriend was an AQUA GRUNT.$"
 
 SootopolisCity_Text_CaveOfOriginPleaseLeave:
 	.string "Who might you be?\p"

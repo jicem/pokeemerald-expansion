@@ -38,6 +38,12 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 	.string "the SOOTOPOLIS SPACE CENTER.\p"
 	.string "You should have a very good idea\n"
 	.string "about how good I am.\p"
+	.string "I used to be the CHAMPION myself, but\n"
+	.string "I stepped down because I felt I had\l"
+	.string "a higher calling.\p"
+	.string "I suppose I'm like my brother\n"
+	.string "in that way.\p"
+	.string "I understand why you admire him.\p"
 	.string "Okay, {PLAYER}{KUN}, if you're going to mount\n"
 	.string "a serious challenge, expect the worst!$"
 
