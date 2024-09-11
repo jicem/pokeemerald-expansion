@@ -264,8 +264,14 @@ FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 
 FortreeCity_Gym_Text_ExplainAerialAce:
 	.string "This is a MEGA RING.\p"
-	.string "Equip it, and you'll be able to\n"
-	.string "MEGA EVOLVE your POKéMON.\p"
+	.string "With this, and any MEGA STONES you\n"
+	.string "give your POKéMON to hold, your\l"
+	.string "POKéMON will be able to achieve\l"
+	.string "a powerful boost…\p"
+	.string "Quite unlike any usual form of\n"
+	.string "EVOLUTION…\p"
+	.string "They will be able to achieve\n"
+	.string "MEGA EVOLUTION in battle…\p"
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona:

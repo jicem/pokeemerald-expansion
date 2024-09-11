@@ -420,10 +420,10 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 	.string "Of course, I've also caught a lot of\n"
 	.string "POKéMON, and I'm raising them\l"
 	.string "properly, too.\p"
-	.string "Actually, I'm more worried if you're\n"
-	.string "raising POKéMON properly, {PLAYER}{KUN}.\p"
+	.string "Hey, is that a MEGA RING?\n"
+	.string "So you got one, too!\p"
 	.string "I'll battle with you, so you can show\n"
-	.string "me your POKéMON, {PLAYER}{KUN}.$"
+	.string "me what you can do, {PLAYER}{KUN}.$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
 	.string "MAY: Oh, why? {PLAYER}{KUN}, haven't you\n"
@@ -486,7 +486,8 @@ LilycoveCity_Text_BrendanShoppingLetsBattle:
 	.string "BRENDAN: Oh, hey, it's {PLAYER}.\p"
 	.string "I was just picking up some stuff\n"
 	.string "before heading to MOSSDEEP.\p"
-	.string "Anyways, it's been a while.\p"
+	.string "Hey, is that a MEGA RING?\n"
+	.string "So you got one, too, huh?\p"
 	.string "Want to have a battle to see who's been\n"
 	.string "raising POKéMON better?$"
 

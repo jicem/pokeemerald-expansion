@@ -2086,12 +2086,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 23,
@@ -2283,7 +2283,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CLAMPERL"
+                "species": "SPECIES_HUNTAIL"
               },
               {
                 "min_level": 30,
@@ -4091,12 +4091,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 23,
@@ -4160,12 +4160,12 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 23,
@@ -4888,9 +4888,9 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 5,
+                "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_MILOTIC"
               },
               {
                 "min_level": 10,
@@ -8903,9 +8903,9 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 5,
+                "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_MILOTIC"
               },
               {
                 "min_level": 10,
@@ -9093,7 +9093,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CLAMPERL"
+                "species": "SPECIES_GOREBYSS"
               },
               {
                 "min_level": 30,

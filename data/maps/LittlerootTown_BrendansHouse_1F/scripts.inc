@@ -430,8 +430,9 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "POKéMON in flight.\p"
 	.string "The identity of this POKéMON is\n"
 	.string "currently unknown.\p"
-	.string "We now return you to the regular\n"
-	.string "movie program.$"
+	.string "And now, we return to our reporters\n"
+	.string "at CINNABAR ISLAND covering last\l"
+	.string "week's devastating volcanic eruption.$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
 	.string "MOM: {PLAYER}, did you catch that?\p"
