@@ -58,7 +58,11 @@ PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
 	.string "That PC-based POKéMON Storage\n"
 	.string "System…\p"
 	.string "Whoever made it must be some kind\n"
-	.string "of a scientific wizard!$"
+	.string "of a scientific wizard!\p"
+	.string "I bet their house is never messy!\p"
+	.string "What does that have to do with\n"
+	.string "anything?\p"
+	.string "How should I know?$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
 	.string "When my POKéMON ate an\n"

@@ -123,11 +123,11 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 	.string "my little brother's son.$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
-	.string "WANDA: You are?\n"
+	.string "You are?\n"
 	.string "Oh, right, I get it!\p"
 	.string "You're the {PLAYER} who WALLY was\n"
 	.string "telling me about.\p"
-	.string "I'm WALLY's cousin.\n"
+	.string "I'm WALLY's cousin, WANDA.\n"
 	.string "Glad to meet you!\p"
 	.string "I think WALLY's become a lot more lively\n"
 	.string "and healthy since he came here.$"

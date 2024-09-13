@@ -28,6 +28,9 @@ const u32 gTrainerPalette_SwimmerM[] = INCBIN_U32("graphics/trainers/front_pics/
 const u32 gTrainerFrontPic_MagmaGruntM[] = INCBIN_U32("graphics/trainers/front_pics/magma_grunt_m.4bpp.lz");
 const u32 gTrainerPalette_MagmaGruntM[] = INCBIN_U32("graphics/trainers/front_pics/magma_grunt_m.gbapal.lz");
 
+const u32 gTrainerFrontPic_MagmaGruntF[] = INCBIN_U32("graphics/trainers/front_pics/magma_grunt_f.4bpp.lz");
+const u32 gTrainerPalette_MagmaGruntF[] = INCBIN_U32("graphics/trainers/front_pics/magma_grunt_f.gbapal.lz");
+
 const u32 gTrainerFrontPic_ExpertM[] = INCBIN_U32("graphics/trainers/front_pics/expert_m.4bpp.lz");
 const u32 gTrainerPalette_ExpertM[] = INCBIN_U32("graphics/trainers/front_pics/expert_m.gbapal.lz");
 
@@ -79,8 +82,8 @@ const u32 gTrainerPalette_ExpertF[] = INCBIN_U32("graphics/trainers/front_pics/e
 const u32 gTrainerFrontPic_Pokemaniac[] = INCBIN_U32("graphics/trainers/front_pics/pokemaniac.4bpp.lz");
 const u32 gTrainerPalette_Pokemaniac[] = INCBIN_U32("graphics/trainers/front_pics/pokemaniac.gbapal.lz");
 
-const u32 gTrainerFrontPic_MagmaGruntF[] = INCBIN_U32("graphics/trainers/front_pics/magma_grunt_f.4bpp.lz");
-const u32 gTrainerPalette_MagmaGruntF[] = INCBIN_U32("graphics/trainers/front_pics/magma_grunt_f.gbapal.lz");
+const u32 gTrainerFrontPic_MagmaAdminF[] = INCBIN_U32("graphics/trainers/front_pics/magma_admin_f.4bpp.lz");
+const u32 gTrainerPalette_MagmaAdminF[] = INCBIN_U32("graphics/trainers/front_pics/magma_admin_f.gbapal.lz");
 
 const u32 gTrainerFrontPic_Guitarist[] = INCBIN_U32("graphics/trainers/front_pics/guitarist.4bpp.lz");
 const u32 gTrainerPalette_Guitarist[] = INCBIN_U32("graphics/trainers/front_pics/guitarist.gbapal.lz");
@@ -378,6 +381,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TWINS, Twins),
     TRAINER_SPRITE(SAILOR, Sailor),
     TRAINER_SPRITE(MAGMA_ADMIN, MagmaAdmin),
+    TRAINER_SPRITE(MAGMA_ADMIN_F, MagmaAdminF),
     TRAINER_SPRITE(WALLY, Wally),
     TRAINER_SPRITE(BRENDAN, Brendan),
     TRAINER_SPRITE(MAY, May),

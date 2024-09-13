@@ -14,8 +14,8 @@ gText_Birch_Pokemon::
 
 gText_Birch_MainSpeech::
 	.string "We use these POKéMON to help us\n"
-	.string "in our quest to reverse the\p"
-	.string "catastrophic changes to HOENN's\n"
+	.string "in our quest to reverse the\l"
+	.string "catastrophic changes to HOENN's\l"
 	.string "climate.\p"
 	.string "\n"
 	.string "$"

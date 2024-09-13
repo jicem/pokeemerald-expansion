@@ -682,9 +682,10 @@ MtChimney_Text_ArchieThankYou:
 	.string "MAGMA's destructive plan!\p"
 	.string "But… You…\n"
 	.string "Whose side are you on?\p"
+	.string "Our? Or theirs?\p"
 	.string "Ah, it doesn't matter.\p"
 	.string "We will remain vigilant and keep up\n"
-	.string "our pursuit of TEAM MAGMA.\p"
+	.string "our pursuit.\p"
 	.string "{PLAYER}, we shall meet again!$"
 
 MtChimney_Text_MagmaOutnumbersUs:

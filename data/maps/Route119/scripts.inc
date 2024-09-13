@@ -480,7 +480,7 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
-	.string "MAY: {PLAYER}{KUN}!\n"
+	.string "MAY: {PLAYER}{KUN}!\p"
 	.string "Where were you? I'm on my way to\n"
 	.string "MT. PYRE with the others!\p"
 	.string "How much stronger have you gotten?\n"
@@ -506,6 +506,8 @@ Route119_Text_MayExplainFly:
 	.string "But, to use FLY, you have to get\n"
 	.string "the GYM BADGE from FORTREE CITY.\l"
 	.string "That's important, so don't forget.\p"
+	.string "I hear you can get something else\n"
+	.string "super special from that gym, too.\p"
 	.string "You should FLY home and visit\n"
 	.string "LITTLEROOT for a change.\p"
 	.string "I bet your mom's worried about you,\n"
@@ -538,6 +540,8 @@ Route119_Text_BrendanExplainFly:
 	.string "you've already visited.\p"
 	.string "But you need the FORTREE GYM BADGE \n"
 	.string "to do that.\p"
+	.string "I hear you can get something else\n"
+	.string "really cool from that gym, too.\p"
 	.string "Anyway, I have to move along.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:

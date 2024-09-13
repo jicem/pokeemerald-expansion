@@ -281,7 +281,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "While I visited the hot springs,\n"
 	.string "I heard from another GRUNT that\l"
 	.string "you betrayed the team!\p"
-	.string "Wait…\n"
+	.string "Wait…\p"
 	.string "Is that the LAVARIDGE GYM BADGE?\p"
 	.string "You must have collected\n"
 	.string "good POKéMON…\l"
@@ -323,8 +323,8 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "the GYM LEADER of PETALBURG.\p"
 	.string "Unlike you, {PLAYER}, your dad looks like\n"
 	.string "he really is tough.\p"
-	.string "As for TEAM MAGMA…\n"
-	.string "do what you feel is right.$"
+	.string "And about the TEAM MAGMA stuff…\p"
+	.string "It's whatever. We're still cool.$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
 	.string "I have here an EGG.\p"

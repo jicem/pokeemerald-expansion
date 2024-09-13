@@ -39,6 +39,8 @@ VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
 	.string "VERDANTURF…\p"
 	.string "It's the BATTLE TENT. It goes without\n"
 	.string "saying.\p"
+	.string "It's not like there's anything else\n"
+	.string "to do here.\p"
 	.string "Or is there somebody here that you\n"
 	.string "came to see?$"
 

@@ -871,13 +871,27 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "MAY: I think I'll take a short break\n"
-	.string "from fieldwork.\p"
+	.string "from POKéMON hunting and from\l"
+	.string "TEAM MAGMA.\p"
+	.string "I love that MAXIE is reforming\n"
+	.string "the organization but I feel\l"
+	.string "there's more to me than being\l"
+	.string "a GRUNT.\p"
+	.string "I feel there's more to you\n"
+	.string "than that, too.\p"
 	.string "I think I'll help the PROF here for\n"
 	.string "a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 	.string "BRENDAN: For the time being,\n"
-	.string "I'm taking a break from fieldwork.\p"
+	.string "I'm taking a break from POKéMON\l"
+	.string "hunting and from TEAM MAGMA.\p"
+	.string "I love that MAXIE is reforming\n"
+	.string "the organization but I feel\l"
+	.string "there's more to me than being\l"
+	.string "a GRUNT.\p"
+	.string "I feel there's more to you\n"
+	.string "than that, too.\p"
 	.string "I'll be helping out the PROF here\n"
 	.string "for a while.$"
 

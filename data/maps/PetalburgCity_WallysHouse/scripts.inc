@@ -122,6 +122,7 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
 	.string "WALLY was really happy when he told\n"
 	.string "us that he caught a POKéMON.\p"
+	.string "It was apparently a rare one, too.\p"
 	.string "It's been ages since I've seen him\n"
 	.string "smile like that.$"
 
