@@ -7,11 +7,11 @@ MagmaHideout_1F_OnTransition:
 	end
 
 MagmaHideout_1F_EventScript_Grunt1::
-	msgbox MagmaHideout_1F_Text_Grunt1PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_1F_Text_Grunt1PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_1F_EventScript_Grunt2::
-	msgbox MagmaHideout_1F_Text_Grunt2PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_1F_Text_Grunt2PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_1F_Text_Grunt1Intro:

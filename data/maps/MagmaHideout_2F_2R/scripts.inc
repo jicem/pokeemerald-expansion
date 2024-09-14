@@ -2,19 +2,19 @@ MagmaHideout_2F_2R_MapScripts::
 	.byte 0
 
 MagmaHideout_2F_2R_EventScript_Grunt15::
-	msgbox MagmaHideout_2F_2R_Text_Grunt15PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_2F_2R_Text_Grunt15PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_2F_2R_EventScript_Grunt6::
-	msgbox MagmaHideout_2F_2R_Text_Grunt6PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_2F_2R_Text_Grunt6PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_2F_2R_EventScript_Grunt7::
-	msgbox MagmaHideout_2F_2R_Text_Grunt7PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_2F_2R_Text_Grunt7PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_2F_2R_EventScript_Grunt8::
-	msgbox MagmaHideout_2F_2R_Text_Grunt8PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_2F_2R_Text_Grunt8PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_2F_2R_Text_Grunt15Intro:

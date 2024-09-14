@@ -114,15 +114,15 @@ MagmaHideout_4F_Movement_MaxieLookAround:
 	step_end
 
 MagmaHideout_4F_EventScript_Grunt11::
-	msgbox MagmaHideout_4F_Text_Grunt11PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_4F_Text_Grunt11PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_4F_EventScript_Grunt12::
-	msgbox MagmaHideout_4F_Text_Grunt12PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_4F_Text_Grunt12PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_4F_EventScript_Grunt13::
-	msgbox MagmaHideout_4F_Text_Grunt13PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_4F_Text_Grunt13PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_4F_EventScript_Tabitha::

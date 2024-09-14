@@ -205,15 +205,15 @@ MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote::
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt3::
-	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle, MSGBOX_DEFAULT
+	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle, MSGBOX_NPC
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt1::
-	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle, MSGBOX_DEFAULT
+	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle, MSGBOX_NPC
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt4::
-	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle, MSGBOX_DEFAULT
+	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle, MSGBOX_NPC
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
@@ -327,7 +327,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
 	.string "I found on the beach.$"
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
-	.string "With TEAM MAGMA around, I guess\n"
+	.string "With you MAGMA guys around, I guess\n"
 	.string "strolls on the beach aren't safe.$"
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:

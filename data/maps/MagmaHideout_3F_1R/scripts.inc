@@ -2,11 +2,11 @@ MagmaHideout_3F_1R_MapScripts::
 	.byte 0
 
 MagmaHideout_3F_1R_EventScript_Grunt9::
-	msgbox MagmaHideout_3F_1R_Text_Grunt9PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_3F_1R_Text_Grunt9PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_3F_1R_EventScript_Grunt16::
-	msgbox MagmaHideout_3F_1R_Text_Grunt16PostBattle, MSGBOX_DEFAULT
+	msgbox MagmaHideout_3F_1R_Text_Grunt16PostBattle, MSGBOX_NPC
 	end
 
 MagmaHideout_3F_1R_Text_Grunt9Intro:
