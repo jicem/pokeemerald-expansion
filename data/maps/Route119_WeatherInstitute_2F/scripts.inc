@@ -68,9 +68,9 @@ Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	closemessage
 	setvar VAR_WEATHER_INSTITUTE_STATE, 1
 	clearflag FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS
+	clearflag FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS
 	fadedefaultbgm
 	fadescreen FADE_TO_BLACK
-	setflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
 	setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M
 	removeobject LOCALID_GRUNT_1
 	removeobject LOCALID_GRUNT_2

@@ -163,7 +163,7 @@ SlateportCity_Harbor_Movement_PlayerWalkUp:
 SlateportCity_Harbor_EventScript_FerryAttendant::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_AskForTicket
+	goto_if_set FLAG_BADGE05_GET, SlateportCity_Harbor_EventScript_AskForTicket
 	msgbox SlateportCity_Harbor_Text_FerryServiceUnavailable, MSGBOX_DEFAULT
 	release
 	end
@@ -291,7 +291,7 @@ SlateportCity_Harbor_EventScript_FatMan::
 SlateportCity_Harbor_EventScript_CaptStern::
 	lock
 	faceplayer
-	goto_if_set FLAG_BADGE07_GET, SlateportCity_Harbor_EventScript_CaptSternFerryOrScannerComment
+	goto_if_set FLAG_BADGE04_GET, SlateportCity_Harbor_EventScript_CaptSternFerryOrScannerComment
 	goto_if_set FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE, SlateportCity_Harbor_EventScript_NeedDive
 	goto_if_set FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, SlateportCity_Harbor_EventScript_TeamAquaLeftNeedDive
 	goto_if_eq VAR_SLATEPORT_HARBOR_STATE, 2, SlateportCity_Harbor_EventScript_WhyStealSubmarine
@@ -322,7 +322,7 @@ SlateportCity_Harbor_EventScript_CaptSternFerryOrScannerComment::
 	goto_if_eq VAR_TEMP_1, 1, SlateportCity_Harbor_EventScript_TradedScanner
 	checkitem ITEM_SCANNER
 	goto_if_eq VAR_RESULT, TRUE, SlateportCity_Harbor_EventScript_AskToTradeScanner
-	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_FerryFinished
+	goto_if_set FLAG_BADGE05_GET, SlateportCity_Harbor_EventScript_FerryFinished
 	msgbox SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry, MSGBOX_DEFAULT
 	release
 	end

@@ -103,8 +103,11 @@ FortreeCity_Text_SomethingBlockingGym:
 	.string "training on ROUTE 120…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "I've got my pride-and-joy POKéMON\n"
-	.string "with me. This time, I'll beat WINONA.$"
+	.string "I heard that after you beat WINONA\n"
+	.string "and give your POKéMON a special item,\l"
+	.string "you unlock something extraordinary.\p"
+	.string "Something you can do in battle by\n"
+	.string "pressing START.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
 	.string "The ground absorbs rainwater, and\n"

@@ -308,9 +308,9 @@ Route104_Text_BillyPostBattle:
 	.string "disappear quickly…$"
 
 Route104_Text_HaleyIntro:
-	.string "Should I…\n"
-	.string "Or shouldn't I?\p"
-	.string "Okay, sure, I will battle!$"
+	.string "You aren't one of those ROCKET guys\n"
+	.string "who steal POKéMON, are you?\p"
+	.string "No? Okay, sure, I will battle!$"
 
 Route104_Text_HaleyDefeat:
 	.string "I shouldn't have battled…$"
@@ -346,15 +346,18 @@ Route104_Text_HaleyPostRematch:
 	.string "I am still upset about losing!$"
 
 Route104_Text_WinstonIntro:
-	.string "Oh, sure, I'll accept your challenge.\n"
-	.string "I have a lot of money.$"
+	.string "Rules? Screw the rules!\n"
+	.string "I have money!$"
 
 Route104_Text_WinstonDefeat:
-	.string "Why couldn't I win?$"
+	.string "Why couldn't I win? I cheated as\n"
+	.string "much as I could…$"
 
 Route104_Text_WinstonPostBattle:
-	.string "There are some things money can't buy.\n"
-	.string "That's POKéMON…$"
+	.string "I understand now.\n"
+	.string "I didn't cheat enough.\p"
+	.string "I'll have to get dad to buy me\n"
+	.string "more rare candies.$"
 
 Route104_Text_WinstonRegister1:
 	.string "Hm?\n"
@@ -1867,11 +1870,11 @@ Route114_Text_StevePostRematch:
 	.string "shivery and shaky…$"
 
 Route114_Text_BernieIntro:
-	.string "If you're lighting a campfire,\n"
-	.string "make sure you have water handy.$"
+	.string "I am once again asking for your\n"
+	.string "financial support.$"
 
 Route114_Text_BernieDefeat:
-	.string "Thanks for dousing my fire!$"
+	.string "Alright, I'll get my own money!$"
 
 Route114_Text_BerniePostBattle:
 	.string "You really do have to be careful with\n"
@@ -2183,8 +2186,8 @@ Route116_Text_ClarkPostBattle:
 	.string "To a HIKER, mountains are roads!$"
 
 Route116_Text_JoeyIntro:
-	.string "My POKéMON rule!\n"
-	.string "Check them out!$"
+	.string "My MACHOP is in the top percentage\n"
+	.string "of all MACHOP. Check it out!$"
 
 Route116_Text_JoeyDefeat:
 	.string "Ouch! A scrape!\n"

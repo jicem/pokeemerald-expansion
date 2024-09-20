@@ -24,10 +24,13 @@ Route112_EventScript_MagmaGrunts::
 	delay 20
 	msgbox Route112_Text_YeahWeNeedMeteorite, MSGBOX_DEFAULT
 	closemessage
+	delay 40
 	msgbox Route112_Text_OhThatsWhyCrewWentToFallarbor, MSGBOX_DEFAULT
 	closemessage
+	delay 40
 	msgbox Route112_Text_CantLetAnyonePassUntilTheyreBack, MSGBOX_DEFAULT
 	closemessage
+	delay 40
 	applymovement LOCALID_GRUNT_1, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	delay 20

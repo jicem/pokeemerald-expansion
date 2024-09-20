@@ -385,6 +385,12 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	call EventScript_HideMrBriney
 	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
 	clearflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
+	setflag FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY
+	clearflag FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY
+	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL
+	clearflag FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL
+	setflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
+	setflag FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS
 	setvar VAR_0x8008, 5
 	call Common_EventScript_SetGymTrainers
 	clearflag FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN
@@ -405,7 +411,7 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	end
 
 PetalburgCity_Gym_EventScript_GiveFacade::
-	giveitem ITEM_EON_TICKET
+	giveitem ITEM_SS_TICKET
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_RECEIVED_TM_FACADE
 	msgbox PetalburgCity_Gym_Text_ExplainFacade, MSGBOX_DEFAULT
@@ -1291,9 +1297,9 @@ PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "sure you can use it correctly.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-	.string "DAD: If you become the CHAMPION,\n"
-	.string "you can use this TICKET at a harbor.\p"
-	.string "I won't say anything further…$"
+	.string "DAD: This is a TICKET for a ferry.\n"
+	.string "If I recall, there are ferry ports in\l"
+	.string "SLATEPORT and LILYCOVE.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
 	.string "DAD: Also, {PLAYER}…\p"

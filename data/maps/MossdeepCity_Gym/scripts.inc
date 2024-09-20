@@ -99,6 +99,7 @@ MossdeepCity_Gym_EventScript_GiveCalmMind2::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
 	release
 	end
 
@@ -582,10 +583,10 @@ MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
 	.string "TATE: You should also take this, too.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-	.string "TATE: If you become the CHAMPION, you\n"
-	.string "LIZA: can use this TICKET at a harbor.\p"
-	.string "TATE: We won't say\n"
-	.string "LIZA: anything further…\p"
+	.string "TATE: This is the MYSTICTICKET.\n"
+	.string "LIZA: Use it at the LILYCOVE HARBOR.\p"
+	.string "TATE: It will allow you to take\n"
+	.string "LIZA: the ferry to NAVAL ROCK.\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:

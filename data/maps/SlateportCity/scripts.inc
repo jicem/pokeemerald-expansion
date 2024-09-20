@@ -285,8 +285,8 @@ SlateportCity_EventScript_BattleTentSign::
 
 SlateportCity_EventScript_SternsShipyardSign::
 	lockall
-	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_EventScript_SternsShipyardFerryComplete
-	goto_if_set FLAG_BADGE07_GET, SlateportCity_EventScript_SternsShipyardNearsCompletion
+	goto_if_set FLAG_BADGE05_GET, SlateportCity_EventScript_SternsShipyardFerryComplete
+	goto_if_set FLAG_BADGE04_GET, SlateportCity_EventScript_SternsShipyardNearsCompletion
 	msgbox SlateportCity_Text_SternsShipyardWantedSign, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -319,7 +319,7 @@ SlateportCity_EventScript_MarketSign::
 
 SlateportCity_EventScript_HarborSign::
 	lockall
-	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_EventScript_HarborSignFerryComplete
+	goto_if_set FLAG_BADGE05_GET, SlateportCity_EventScript_HarborSignFerryComplete
 	msgbox SlateportCity_Text_HarborFerryUnderConstruction, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -1274,9 +1274,9 @@ SlateportCity_Text_MarketSign:
 
 SlateportCity_Text_HarborFerryUnderConstruction:
 	.string "SLATEPORT HARBOR\p"
-	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in the SHIPYARD.\p"
-	.string "“Service is scheduled to begin\n"
+	.string "“The ferry S.S. TIDAL is being\n"
+	.string "repaired in the SHIPYARD.\p"
+	.string "“Service is scheduled to resume\n"
 	.string "shortly.”$"
 
 SlateportCity_Text_HarborSign:

@@ -211,8 +211,6 @@ RustboroCity_PokemonSchool_Text_ExplainPoison:
 	.string "steadily lose HP.\p"
 	.string "The effects of poison remain after\n"
 	.string "a battle.\p"
-	.string "A poisoned POKéMON's HP will drop\n"
-	.string "while it is traveling.\p"
 	.string "Heal a poisoning using an ANTIDOTE.$"
 
 RustboroCity_PokemonSchool_Text_ExplainParalysis:
@@ -221,7 +219,7 @@ RustboroCity_PokemonSchool_Text_ExplainParalysis:
 	.string "It may also not be able to move while\n"
 	.string "it is in battle.\p"
 	.string "Paralysis remains after battle.\n"
-	.string "Cure it using a PARLYZ HEAL.$"
+	.string "Cure it using a PARALYZE HEAL.$"
 
 RustboroCity_PokemonSchool_Text_ExplainSleep:
 	.string "If a POKéMON falls asleep, it will be\n"

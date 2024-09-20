@@ -1010,10 +1010,11 @@ Route104_Text_WhatsItLikeAtBottomOfSea:
 	.string "of the sea?$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-	.string "If you're going to throw a POKé BALL,\n"
-	.string "weaken the wild POKéMON first.\p"
-	.string "It will be easier to catch if it's been\n"
-	.string "poisoned, burned, or lulled to sleep.$"
+	.string "You can press R during a battle with\n"
+	.string "a wild POKéMON to throw a POKé BALL,\l"
+	.string "assuming you have any left.\p"
+	.string "It will be easier to catch POKéMON that\n"
+	.string "are poisoned, burned, or asleep.$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
 	.string "You shouldn't throw POKé BALLS at\n"

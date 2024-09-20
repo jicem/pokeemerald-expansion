@@ -120,6 +120,7 @@ SootopolisCity_Gym_1F_EventScript_GiveWaterPulse::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SootopolisCity_Gym_1F_Text_ExplainWaterPulse, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_WATER_PULSE
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
 	return
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2::
@@ -248,9 +249,10 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 	.string "The TICKET I handed you is the\n"
-	.string "AURORA TICKET.\p"
-	.string "If you become the CHAMPION, you can\n"
-	.string "use this at the LILYCOVE HARBOR.\p"
+	.string "AURORATICKET.\p"
+	.string "If you use it at the LILYCOVE HARBOR,\n"
+	.string "you'll be able to take the ferry to\l"
+	.string "BIRTH ISLAND.\p"
 	.string "… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:

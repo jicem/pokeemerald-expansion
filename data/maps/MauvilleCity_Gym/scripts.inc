@@ -297,11 +297,11 @@ MauvilleCity_Gym_Text_ShawnPostBattle:
 	.string "daddy was born, that tough coot.$"
 
 MauvilleCity_Gym_Text_BenIntro:
-	.string "This GYM's got puzzles!\n"
-	.string "Isn't it fun?$"
+	.string "Hi! I like shorts!\n"
+	.string "They're comfy and easy to wear!$"
 
 MauvilleCity_Gym_Text_BenDefeat:
-	.string "It's no fun to lose…$"
+	.string "It's not comfy to lose…$"
 
 MauvilleCity_Gym_Text_BenPostBattle:
 	.string "WATTSON says he likes setting up\n"

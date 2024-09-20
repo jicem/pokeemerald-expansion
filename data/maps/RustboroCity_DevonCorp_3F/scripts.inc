@@ -165,6 +165,7 @@ RustboroCity_DevonCorp_3F_EventScript_GiveExpShare::
 	giveitem ITEM_OLD_SEA_MAP
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_EXP_SHARE
+	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
 	msgbox RustboroCity_DevonCorp_3F_Text_ExplainExpShare, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
